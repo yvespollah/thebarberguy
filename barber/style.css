@@ -1,0 +1,143 @@
+body{
+font-style:'time new roman',sans-serif;
+}
+html{
+scroll-behavior:smooth;
+}
+nav .onglets a{
+text-decoration:none;
+color:black;
+margin-right:10px;
+border-bottom:1px solid black;
+padding-bottom:5px; 
+
+}
+nav{
+display :flex;
+flex-wrap:wrap;
+justify-content:center;
+align-items:center;
+border-bottom-style:solid;
+border-widht:5px;
+border-color:#6F6F6F;
+}
+nav h1{
+color:#6F6F6F;
+font-style:italic; 
+font-size:30px;
+}
+nav .onglets{
+margin-top:3px;
+margin-left:300px;
+}
+header{
+display:flex;
+flex-direction: column;
+align-items:center;
+background-image: url('../photo/h.jpeg');
+background-size: cover;
+background-repeat: no-repeat;
+filter: brightness(90%);
+color:rgb(249, 247, 247);
+padding:40px;
+}
+.main{
+margin-top:40px;
+display:flex;
+flex-direction:column;
+text-alig:center;
+}
+.main .content .card .right  img{
+height:320px;
+width:320px;
+margin-top:5px;
+}
+.main .content .card {
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+margin-bottom:20px;
+}
+.main .content .card  .left{
+flex: 0 0 20%;
+padding:20px;
+background-color:black;
+color:white;
+
+}
+footer{
+margin-top:40px;
+border-top:5px solid #6f6f6f;
+background-color:black;
+color:white;
+padding:30px 100px;
+}
+footer h1{
+font-style:italic; 
+border-bottom:1px solid white;
+width:14%;
+padding-bottom:5px;
+}
+footer  .services{
+margin-top:-10px;
+display:flex;
+flex-wrap:wrap;
+}
+footer .services .service{
+margin-right:70px;
+}
+footer #contact{
+color:#6f6f6f;
+}
+footer .services .service p{
+max-width:200px;
+
+}
+
+.social-media-link {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+.main .content .card   .right{
+flex: 0 0 70%;
+}
+@media screen and (max-width:680px){
+nav .onglets {
+margin-left:0px;
+margin-bottom:20px;
+}
+.main card{
+margin:10px;
+}
+.main .content .card   .right img{
+height:300;
+width:200px;
+margin-top:0px;
+}
+.main .content .card{
+display:block;
+}
+footer {
+padding:30px;
+}
+}
+header h1{
+font-style:italic;
+font-size:50px;
+}
+header h4{
+margin-top:-20px;
+font-size:20px;
+align-items:center;
+border-bottom:1px solid white;
+}
+header button{
+padding:10px 20px;
+background-color:white;
+text-color:black;
+border:0px;
+font-size:20px;
+outline:none;
+cursor:pointer;
+}
